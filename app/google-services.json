@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "238718832138",
+    "project_id": "ehome-f31eb",
+    "storage_bucket": "ehome-f31eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238718832138:android:50e7984dd9eff9c2ec19f3",
+        "android_client_info": {
+          "package_name": "com.masterandroid.ehome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238718832138-8574e8qu5h0q5gjb53qusndjje0uph1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJejehibZvEtRbOTPjd7HHlKG9bQ38CME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238718832138-8574e8qu5h0q5gjb53qusndjje0uph1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

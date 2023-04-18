@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context=".AdminActivity"
+    android:id="@+id/clientInfo">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Service \nProviders"
+        android:id="@+id/btnserv"
+        android:backgroundTint="@color/Primary_color"
+        android:textColor="@color/Text"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clients' Order's "
+        android:id="@+id/textview"
+        android:gravity="center"
+        android:textColor="@color/Primary_text"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+
+    <View style="@style/Divider"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtclient"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/listView"/>
+
+</LinearLayout>

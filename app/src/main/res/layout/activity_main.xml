@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:stretchColumns="1">
+
+    <ScrollView android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What you want ?"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textColor="@color/Primary_text"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/electrician"
+            android:padding="0dip" />
+        <TextView
+            android:text="Electrician"
+            android:gravity="right"
+            android:padding="3dp"
+            android:id="@+id/txtelectrician"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Primary_text"
+            android:textSize="25dp"/>
+
+
+
+    </TableRow>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hireelect"
+        android:layout_below="@id/txtelectrician"
+        android:text="Hire"
+        android:textStyle="bold"
+        android:textColor="@color/Primary_text"
+        android:backgroundTint="@color/Dark_primary_color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="20dp"
+        />
+
+        <View style="@style/Divider"/>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/plumber2"
+            android:padding="0dip" />
+        <TextView
+            android:text="Plumber"
+            android:gravity="right"
+            android:padding="3dp"
+            android:id="@+id/txtPlumber"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Primary_text"
+            android:textSize="25dp"/>
+
+
+
+    </TableRow>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hireplumber"
+        android:layout_below="@id/txtPlumber"
+        android:text="Hire"
+        android:textColor="@color/Primary_text"
+        android:textStyle="bold"
+        android:backgroundTint="@color/Dark_primary_color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="20dp" />
+
+        <View style="@style/Divider"/>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/painter2"
+            android:padding="0dip" />
+        <TextView
+            android:text="Painter"
+            android:gravity="right"
+            android:padding="3dp"
+            android:id="@+id/txtpainter"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Primary_text"
+            android:textSize="25dp"/>
+
+
+
+    </TableRow>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hirepainter"
+        android:layout_below="@id/txtPlumber"
+        android:text="Hire"
+        android:textStyle="bold"
+        android:textColor="@color/Primary_text"
+        android:backgroundTint="@color/Dark_primary_color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="20dp"
+        />
+
+        <View style="@style/Divider"/>
+
+        <TableRow>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/softinst2"
+                android:padding="0dip" />
+            <TextView
+                android:text="Software installer"
+                android:gravity="right"
+                android:padding="3dp"
+                android:id="@+id/txtsoftinst"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/Primary_text"
+                android:textSize="20dp"/>
+
+
+
+        </TableRow>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hiresoft"
+            android:layout_below="@id/txtpainter"
+            android:text="Hire"
+            android:textStyle="bold"
+            android:textColor="@color/Primary_text"
+            android:backgroundTint="@color/Dark_primary_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="230dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <View style="@style/Divider"/>
+
+        <TableRow>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/mason2"
+                android:padding="0dip" />
+            <TextView
+                android:text="Mason"
+                android:gravity="right"
+                android:padding="3dp"
+                android:id="@+id/txtmason"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/Primary_text"
+                android:textSize="20dp"/>
+
+
+
+        </TableRow>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hiremason"
+            android:layout_below="@id/txtsoftinst"
+            android:text="Hire"
+            android:textStyle="bold"
+            android:textColor="@color/Primary_text"
+            android:backgroundTint="@color/Dark_primary_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="230dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <View style="@style/Divider"/>
+
+        <TableRow>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/driver2"
+                android:padding="0dip" />
+            <TextView
+                android:text="Driver"
+                android:gravity="right"
+                android:padding="3dp"
+                android:id="@+id/txtdriver"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/Primary_text"
+                android:textSize="20dp"/>
+
+
+
+        </TableRow>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hiredriver"
+            android:layout_below="@id/txtdriver"
+            android:text="Hire"
+            android:textStyle="bold"
+            android:textColor="@color/Primary_text"
+            android:backgroundTint="@color/Dark_primary_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="230dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <View style="@style/Divider"/>
+
+        <TableRow>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/babysitter2"
+                android:padding="0dip" />
+            <TextView
+                android:text="BabySitter"
+                android:gravity="right"
+                android:padding="3dp"
+                android:id="@+id/txtbabys"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/Primary_text"
+                android:textSize="20dp"/>
+
+
+
+        </TableRow>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hirebaby"
+            android:layout_below="@id/txtdriver"
+            android:text="Hire"
+            android:textStyle="bold"
+            android:textColor="@color/Primary_text"
+            android:backgroundTint="@color/Dark_primary_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="230dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <View style="@style/Divider"/>
+
+        <TableRow>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/guard2"
+                android:padding="0dip" />
+            <TextView
+                android:text="Guard"
+                android:gravity="right"
+                android:padding="3dp"
+                android:id="@+id/txtguard"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/Primary_text"
+                android:textSize="20dp"/>
+
+
+
+        </TableRow>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hireguard"
+            android:layout_below="@id/txtbabys"
+            android:text="Hire"
+            android:textStyle="bold"
+            android:textColor="@color/Primary_text"
+            android:backgroundTint="@color/Dark_primary_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="230dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <View style="@style/Divider"/>
+
+        <TableRow>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tutor2"
+                android:padding="0dip" />
+            <TextView
+                android:text="Tutor"
+                android:gravity="right"
+                android:padding="3dp"
+                android:id="@+id/txttutor"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/Primary_text"
+                android:textSize="20dp"/>
+
+
+
+        </TableRow>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hiretutor"
+            android:layout_below="@id/txtguard"
+            android:text="Hire"
+            android:textStyle="bold"
+            android:textColor="@color/Primary_text"
+            android:backgroundTint="@color/Dark_primary_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="230dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <View style="@style/Divider"/>
+
+        <TableRow>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/carpenter2"
+                android:padding="0dip" />
+            <TextView
+                android:text="Carpenter"
+                android:gravity="right"
+                android:padding="3dp"
+                android:id="@+id/txtcarpenter"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/Primary_text"
+                android:textSize="20dp"/>
+
+
+
+        </TableRow>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hirecarpenter"
+            android:layout_below="@id/txttutor"
+            android:text="Hire"
+            android:textStyle="bold"
+            android:textColor="@color/Primary_text"
+            android:backgroundTint="@color/Dark_primary_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="230dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <View style="@style/Divider"/>
+
+    </TableLayout>
+    </ScrollView>
+</LinearLayout>

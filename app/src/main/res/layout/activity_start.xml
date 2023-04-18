@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:id="@+id/weltxt"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/Text"
+        android:text="WELCOME TO EHOME SERVICE PROVIDER"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signin"
+            android:text="Sign in"
+            android:textSize="35dp"
+            android:textColor="@color/Text"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_below="@id/weltxt"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_below="@id/signin"
+        android:hint="Email"
+        android:textColorHint="@color/Primary_text"
+        android:textColor="@color/Text"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_margin="5dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="10dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@id/email"
+        android:hint="Password"
+        android:textColorHint="@color/Primary_text"
+        android:textStyle="bold"
+        android:textColor="@color/Text"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:layout_below="@id/password"
+        android:layout_marginTop="2dp"
+        android:text="Login"
+        android:textColor="@color/Text"
+        android:textStyle="bold"
+        android:backgroundTint="@color/Accent_color"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/crtaccount"
+        android:layout_below="@id/btnLogin"
+        android:text="Create account"
+        android:textColor="@color/Secondary_text"
+        android:textStyle="bold"
+        android:backgroundTint="@color/Light_primary_color"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotpass"
+        android:layout_below="@id/crtaccount"
+        android:textColor="@color/Text"
+        android:text="Forgot password"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txttext"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp"
+        android:textColor="@color/Accent_color"
+        android:text="Every home service at the click of a button"/>
+
+    </RelativeLayout>
+
+

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ehome</string>
+
+    <array name="Payment_mode">
+        <item>Pay cash after service</item>
+        <item>Pay with paypal after service</item>
+    </array>
+</resources>
